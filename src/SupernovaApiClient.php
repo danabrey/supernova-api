@@ -2,10 +2,8 @@
 namespace DanAbrey\SupernovaApi;
 
 use DanAbrey\SupernovaApi\Exception\InvalidApiKeyException;
+use DanAbrey\SupernovaApi\Exception\LeagueNotFoundException;
 use Symfony\Component\HttpClient\HttpClient;
-use Symfony\Component\Serializer\Normalizer\ArrayDenormalizer;
-use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
-use Symfony\Component\Serializer\Serializer;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class SupernovaApiClient
@@ -34,7 +32,12 @@ class SupernovaApiClient
      */
     protected function get(string $path): array
     {
-        $response = $this->httpClient->request('GET', self::API_BASE . $path);
+        $response = $this->httpClient->request('GET', self::API_BASE . $path, [
+            'headers' => [
+                'User-Agent' => 'danabrey/supernova-api',
+                'x-api-key' => $this->apiKey,
+            ],
+        ]);
 
         $json = json_decode($response->getContent(), true);
 
@@ -42,18 +45,23 @@ class SupernovaApiClient
             throw new InvalidApiKeyException();
         }
 
-        return $json['data'];
+        return $json;
     }
 
-    /**
-     * @param string $userEmail
-     * @return DanAbrey\SupernovaApi\SupernovaLeagueBasic[]|array
-     */
-    public function leagues(string $userEmail): array
+    public function leagues(string $userEmail): SupernovaUserLeaguesCollection
     {
-        $response = $this->get('/getuserleagues?user=%s' . urlencode($userEmail));
-        $normalizers = [new ArrayDenormalizer(), new ObjectNormalizer()];
-        $serializer = new Serializer($normalizers);
-        return $serializer->denormalize($response['leagues'], SupernovaLeagueBasic::class . '[]');
+        $response = $this->get('/getuserleagues?user=' . urlencode($userEmail));
+        return SupernovaUserLeaguesCollection::create($response['data']['leagues']);
+    }
+
+    public function league(int $leagueId): SupernovaLeague
+    {
+        $response = $this->get('/getfranchises?league=' . $leagueId);
+
+        if ($response['statusCode'] === 401 && $response['errorMsg'] === 'League not found') {
+            throw new LeagueNotFoundException();
+        }
+
+        return new SupernovaLeague($response['data']);
     }
 }

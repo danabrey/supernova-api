@@ -2,7 +2,9 @@
 
 namespace DanAbrey\SupernovaApi;
 
-class SupernovaLeagueBasic
+use Spatie\DataTransferObject\DataTransferObject;
+
+class SupernovaUserLeague extends DataTransferObject
 {
     public int $league_id;
     public string $league_name;

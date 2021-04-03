@@ -1,0 +1,1639 @@
+{
+  "statusCode": 200,
+  "status": "OK",
+  "data": {
+    "league_name": "Main Test League",
+    "roster_size": 25,
+    "ir_size": 3,
+    "practice_size": 5,
+    "isContract": true,
+    "isSalaryCap": true,
+    "isPPR": true,
+    "isSuperFlex": true,
+    "positions": {
+      "QB": 1,
+      "RB": 2,
+      "WR": 2,
+      "TE": 1,
+      "OFLEX": [
+        {
+          "COUNT": 1,
+          "POSITIONS": {
+            "QB": true,
+            "RB": true,
+            "WR": true,
+            "TE": true
+          }
+        }
+      ],
+      "K": 1,
+      "DEF": 1,
+      "DLINE": 0,
+      "DE": 0,
+      "DT": 0,
+      "LB": 0,
+      "SECONDARY": 0,
+      "CB": 0,
+      "S": 0,
+      "DFLEX": []
+    },
+    "franchises": [
+      {
+        "id": 1,
+        "franchise_name": "Franchise 1",
+        "roster": [
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100070,
+              "mfl_id": 13671,
+              "sleeper_id": 5012,
+              "first_name": "Mark",
+              "last_name": "Andrews",
+              "position": "TE",
+              "team_abbreviation": "BAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101347,
+              "mfl_id": 14798,
+              "sleeper_id": 6845,
+              "first_name": "Zack",
+              "last_name": "Moss",
+              "position": "RB",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100283,
+              "mfl_id": 14777,
+              "sleeper_id": 6770,
+              "first_name": "Joe",
+              "last_name": "Burrow",
+              "position": "QB",
+              "team_abbreviation": "CIN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101234,
+              "mfl_id": 13130,
+              "sleeper_id": 4034,
+              "first_name": "Christian",
+              "last_name": "McCaffrey",
+              "position": "RB",
+              "team_abbreviation": "CAR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100325,
+              "mfl_id": 13364,
+              "sleeper_id": 4273,
+              "first_name": "Chris",
+              "last_name": "Carson",
+              "position": "RB",
+              "team_abbreviation": "SEA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 12.35,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101038,
+              "mfl_id": 13319,
+              "sleeper_id": 4199,
+              "first_name": "Aaron",
+              "last_name": "Jones",
+              "position": "RB",
+              "team_abbreviation": "GB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 30,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101505,
+              "mfl_id": 12620,
+              "sleeper_id": 3294,
+              "first_name": "Dak",
+              "last_name": "Prescott",
+              "position": "QB",
+              "team_abbreviation": "DAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101829,
+              "mfl_id": 11647,
+              "sleeper_id": 2251,
+              "first_name": "Logan",
+              "last_name": "Thomas",
+              "position": "TE",
+              "team_abbreviation": "WAS"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 2,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101584,
+              "mfl_id": 11678,
+              "sleeper_id": 1992,
+              "first_name": "Allen",
+              "last_name": "Robinson",
+              "position": "WR",
+              "team_abbreviation": "CHI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 102038,
+              "mfl_id": 10703,
+              "sleeper_id": 1234,
+              "first_name": "Russell",
+              "last_name": "Wilson",
+              "position": "QB",
+              "team_abbreviation": "SEA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1.03,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101725,
+              "mfl_id": 13156,
+              "sleeper_id": 4040,
+              "first_name": "JuJu",
+              "last_name": "Smith-Schuster",
+              "position": "WR",
+              "team_abbreviation": "PIT"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100251,
+              "mfl_id": 11783,
+              "sleeper_id": 2238,
+              "first_name": "John",
+              "last_name": "Brown",
+              "position": "WR",
+              "team_abbreviation": "LVR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101288,
+              "mfl_id": 14102,
+              "sleeper_id": 5846,
+              "first_name": "DK",
+              "last_name": "Metcalf",
+              "position": "WR",
+              "team_abbreviation": "SEA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 16,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 102070,
+              "mfl_id": 11228,
+              "sleeper_id": 1352,
+              "first_name": "Robert",
+              "last_name": "Woods",
+              "position": "WR",
+              "team_abbreviation": "LAR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 10,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100319,
+              "mfl_id": 11644,
+              "sleeper_id": 2028,
+              "first_name": "Derek",
+              "last_name": "Carr",
+              "position": "QB",
+              "team_abbreviation": "LVR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 50,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100863,
+              "mfl_id": 13622,
+              "sleeper_id": 5347,
+              "first_name": "Nyheim",
+              "last_name": "Hines",
+              "position": "RB",
+              "team_abbreviation": "IND"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100395,
+              "mfl_id": 12175,
+              "sleeper_id": 2309,
+              "first_name": "Amari",
+              "last_name": "Cooper",
+              "position": "WR",
+              "team_abbreviation": "DAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100316,
+              "mfl_id": 13718,
+              "sleeper_id": 5095,
+              "first_name": "Daniel",
+              "last_name": "Carlson",
+              "position": "K",
+              "team_abbreviation": "LVR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1706,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Indianapolis",
+              "last_name": "Colts",
+              "position": "DEF",
+              "team_abbreviation": "IND"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "franchise_name": "Franchise 2",
+        "roster": [
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100544,
+              "mfl_id": 14803,
+              "sleeper_id": 6820,
+              "first_name": "Clyde",
+              "last_name": "Edwards-Helaire",
+              "position": "RB",
+              "team_abbreviation": "KC"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101581,
+              "mfl_id": 14813,
+              "sleeper_id": 6955,
+              "first_name": "James",
+              "last_name": "Robinson",
+              "position": "RB",
+              "team_abbreviation": "JAX"
+            }
+          },
+          {
+            "roster_group": "practice",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100438,
+              "mfl_id": 14815,
+              "sleeper_id": 6931,
+              "first_name": "DeeJay",
+              "last_name": "Dallas",
+              "position": "RB",
+              "team_abbreviation": "SEA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101419,
+              "mfl_id": 14873,
+              "sleeper_id": 6843,
+              "first_name": "Albert",
+              "last_name": "Okwuegbunam",
+              "position": "TE",
+              "team_abbreviation": "DEN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 24.01,
+            "contract_years": 2,
+            "contract_extendable": 0,
+            "player": {
+              "id": 101204,
+              "mfl_id": 13116,
+              "sleeper_id": 4046,
+              "first_name": "Patrick",
+              "last_name": "Mahomes",
+              "position": "QB",
+              "team_abbreviation": "KC"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 4.4,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100045,
+              "mfl_id": 13589,
+              "sleeper_id": 4984,
+              "first_name": "Josh",
+              "last_name": "Allen",
+              "position": "QB",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 6.01,
+            "contract_years": 3,
+            "contract_extendable": 0,
+            "player": {
+              "id": 100952,
+              "mfl_id": 13593,
+              "sleeper_id": 4881,
+              "first_name": "Lamar",
+              "last_name": "Jackson",
+              "position": "QB",
+              "team_abbreviation": "BAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 15.01,
+            "contract_years": 3,
+            "contract_extendable": 0,
+            "player": {
+              "id": 101743,
+              "mfl_id": 9431,
+              "sleeper_id": 421,
+              "first_name": "Matthew",
+              "last_name": "Stafford",
+              "position": "QB",
+              "team_abbreviation": "LAR"
+            }
+          },
+          {
+            "roster_group": "practice",
+            "salary": 6.24,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100502,
+              "mfl_id": 14800,
+              "sleeper_id": 6806,
+              "first_name": "J.K.",
+              "last_name": "Dobbins",
+              "position": "RB",
+              "team_abbreviation": "BAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1.99,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100701,
+              "mfl_id": 13674,
+              "sleeper_id": 5022,
+              "first_name": "Dallas",
+              "last_name": "Goedert",
+              "position": "TE",
+              "team_abbreviation": "PHI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101036,
+              "mfl_id": 14059,
+              "sleeper_id": 5870,
+              "first_name": "Daniel",
+              "last_name": "Jones",
+              "position": "QB",
+              "team_abbreviation": "NYG"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 8,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101171,
+              "mfl_id": 14057,
+              "sleeper_id": 5854,
+              "first_name": "Drew",
+              "last_name": "Lock",
+              "position": "QB",
+              "team_abbreviation": "DEN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100069,
+              "mfl_id": 12930,
+              "sleeper_id": 3423,
+              "first_name": "Robby",
+              "last_name": "Anderson",
+              "position": "WR",
+              "team_abbreviation": "CAR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101303,
+              "mfl_id": 13639,
+              "sleeper_id": 5013,
+              "first_name": "Anthony",
+              "last_name": "Miller",
+              "position": "WR",
+              "team_abbreviation": "CHI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100370,
+              "mfl_id": 13412,
+              "sleeper_id": 4622,
+              "first_name": "Keelan",
+              "last_name": "Cole",
+              "position": "WR",
+              "team_abbreviation": "NYJ"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1704,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Seattle",
+              "last_name": "Seahawks",
+              "position": "DEF",
+              "team_abbreviation": "SEA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100288,
+              "mfl_id": 13354,
+              "sleeper_id": 4227,
+              "first_name": "Harrison",
+              "last_name": "Butker",
+              "position": "K",
+              "team_abbreviation": "KC"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "franchise_name": "Franchise 3",
+        "roster": [
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 3,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100011,
+              "mfl_id": 11675,
+              "sleeper_id": 2133,
+              "first_name": "Davante",
+              "last_name": "Adams",
+              "position": "WR",
+              "team_abbreviation": "GB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100679,
+              "mfl_id": 14852,
+              "sleeper_id": 6945,
+              "first_name": "Antonio",
+              "last_name": "Gibson",
+              "position": "RB",
+              "team_abbreviation": "WAS"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101891,
+              "mfl_id": 14810,
+              "sleeper_id": 6885,
+              "first_name": "Ke'Shawn",
+              "last_name": "Vaughn",
+              "position": "RB",
+              "team_abbreviation": "TB"
+            }
+          },
+          {
+            "roster_group": "practice",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100177,
+              "mfl_id": 14912,
+              "sleeper_id": 7062,
+              "first_name": "Rodrigo",
+              "last_name": "Blankenship",
+              "position": "K",
+              "team_abbreviation": "IND"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 5,
+            "contract_extendable": 0,
+            "player": {
+              "id": 100637,
+              "mfl_id": 14781,
+              "sleeper_id": 6822,
+              "first_name": "Jake",
+              "last_name": "Fromm",
+              "position": "QB",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100407,
+              "mfl_id": 10700,
+              "sleeper_id": 1166,
+              "first_name": "Kirk",
+              "last_name": "Cousins",
+              "position": "QB",
+              "team_abbreviation": "MIN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 4.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100663,
+              "mfl_id": 11760,
+              "sleeper_id": 1837,
+              "first_name": "Jimmy",
+              "last_name": "Garoppolo",
+              "position": "QB",
+              "team_abbreviation": "SF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 35,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100826,
+              "mfl_id": 12626,
+              "sleeper_id": 3198,
+              "first_name": "Derrick",
+              "last_name": "Henry",
+              "position": "RB",
+              "team_abbreviation": "TEN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 5,
+            "contract_extendable": 0,
+            "player": {
+              "id": 1695,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Detroit",
+              "last_name": "Lions",
+              "position": "DEF",
+              "team_abbreviation": "DET"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101304,
+              "mfl_id": 14280,
+              "sleeper_id": 6290,
+              "first_name": "Scotty",
+              "last_name": "Miller",
+              "position": "WR",
+              "team_abbreviation": "TB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101920,
+              "mfl_id": 12263,
+              "sleeper_id": 2505,
+              "first_name": "Darren",
+              "last_name": "Waller",
+              "position": "TE",
+              "team_abbreviation": "LVR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1689,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Buffalo",
+              "last_name": "Bills",
+              "position": "DEF",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1688,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Washington",
+              "last_name": "Football Team",
+              "position": "DEF",
+              "team_abbreviation": "WAS"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 4.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1693,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Tampa Bay",
+              "last_name": "Buccaneers",
+              "position": "DEF",
+              "team_abbreviation": "TB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 2.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1692,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Miami",
+              "last_name": "Dolphins",
+              "position": "DEF",
+              "team_abbreviation": "MIA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100102,
+              "mfl_id": 13980,
+              "sleeper_id": 5230,
+              "first_name": "Michael",
+              "last_name": "Badgley",
+              "position": "K",
+              "team_abbreviation": "LAC"
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "franchise_name": "Franchise 4",
+        "roster": [
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101589,
+              "mfl_id": 7836,
+              "sleeper_id": 96,
+              "first_name": "Aaron",
+              "last_name": "Rodgers",
+              "position": "QB",
+              "team_abbreviation": "GB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100557,
+              "mfl_id": 12625,
+              "sleeper_id": 3164,
+              "first_name": "Ezekiel",
+              "last_name": "Elliott",
+              "position": "RB",
+              "team_abbreviation": "DAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100961,
+              "mfl_id": 14073,
+              "sleeper_id": 5850,
+              "first_name": "Josh",
+              "last_name": "Jacobs",
+              "position": "RB",
+              "team_abbreviation": "LVR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101076,
+              "mfl_id": 11244,
+              "sleeper_id": 1466,
+              "first_name": "Travis",
+              "last_name": "Kelce",
+              "position": "TE",
+              "team_abbreviation": "KC"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100426,
+              "mfl_id": 8742,
+              "sleeper_id": 59,
+              "first_name": "Mason",
+              "last_name": "Crosby",
+              "position": "K",
+              "team_abbreviation": "GB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101503,
+              "mfl_id": 8930,
+              "sleeper_id": 17,
+              "first_name": "Matt",
+              "last_name": "Prater",
+              "position": "K",
+              "team_abbreviation": "ARI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101459,
+              "mfl_id": 14857,
+              "sleeper_id": 6824,
+              "first_name": "Donovan",
+              "last_name": "Peoples-Jones",
+              "position": "WR",
+              "team_abbreviation": "CLE"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101783,
+              "mfl_id": 14797,
+              "sleeper_id": 6790,
+              "first_name": "D'Andre",
+              "last_name": "Swift",
+              "position": "RB",
+              "team_abbreviation": "DET"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101123,
+              "mfl_id": 14832,
+              "sleeper_id": 6786,
+              "first_name": "CeeDee",
+              "last_name": "Lamb",
+              "position": "WR",
+              "team_abbreviation": "DAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 4,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101046,
+              "mfl_id": 10271,
+              "sleeper_id": 947,
+              "first_name": "Julio",
+              "last_name": "Jones",
+              "position": "WR",
+              "team_abbreviation": "ATL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 26,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100865,
+              "mfl_id": 14138,
+              "sleeper_id": 5844,
+              "first_name": "T.J.",
+              "last_name": "Hockenson",
+              "position": "TE",
+              "team_abbreviation": "DET"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100220,
+              "mfl_id": 4925,
+              "sleeper_id": 289,
+              "first_name": "Drew",
+              "last_name": "Brees",
+              "position": "QB",
+              "team_abbreviation": "FA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1694,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Pittsburgh",
+              "last_name": "Steelers",
+              "position": "DEF",
+              "team_abbreviation": "PIT"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1681,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "New England",
+              "last_name": "Patriots",
+              "position": "DEF",
+              "team_abbreviation": "NE"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 2.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100702,
+              "mfl_id": 12611,
+              "sleeper_id": 3163,
+              "first_name": "Jared",
+              "last_name": "Goff",
+              "position": "QB",
+              "team_abbreviation": "DET"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100056,
+              "mfl_id": 9308,
+              "sleeper_id": 491,
+              "first_name": "Danny",
+              "last_name": "Amendola",
+              "position": "WR",
+              "team_abbreviation": "DET"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101476,
+              "mfl_id": 8658,
+              "sleeper_id": 184,
+              "first_name": "Adrian",
+              "last_name": "Peterson",
+              "position": "RB",
+              "team_abbreviation": "DET"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101172,
+              "mfl_id": 12187,
+              "sleeper_id": 2374,
+              "first_name": "Tyler",
+              "last_name": "Lockett",
+              "position": "WR",
+              "team_abbreviation": "SEA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1702,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Los Angeles",
+              "last_name": "Chargers",
+              "position": "DEF",
+              "team_abbreviation": "LAC"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100651,
+              "mfl_id": 13809,
+              "sleeper_id": 5110,
+              "first_name": "Russell",
+              "last_name": "Gage",
+              "position": "WR",
+              "team_abbreviation": "ATL"
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "franchise_name": "Franchise 5",
+        "roster": [
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101818,
+              "mfl_id": 11938,
+              "sleeper_id": 1689,
+              "first_name": "Adam",
+              "last_name": "Thielen",
+              "position": "WR",
+              "team_abbreviation": "MIN"
+            }
+          },
+          {
+            "roster_group": "practice",
+            "salary": 20,
+            "contract_years": 2,
+            "contract_extendable": 0,
+            "player": {
+              "id": 101494,
+              "mfl_id": 14842,
+              "sleeper_id": 6819,
+              "first_name": "Michael",
+              "last_name": "Pittman",
+              "position": "WR",
+              "team_abbreviation": "IND"
+            }
+          },
+          {
+            "roster_group": "practice",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100974,
+              "mfl_id": 14858,
+              "sleeper_id": 6853,
+              "first_name": "Van",
+              "last_name": "Jefferson",
+              "position": "WR",
+              "team_abbreviation": "LAR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101382,
+              "mfl_id": 10273,
+              "sleeper_id": 954,
+              "first_name": "Cam",
+              "last_name": "Newton",
+              "position": "QB",
+              "team_abbreviation": "NE"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100584,
+              "mfl_id": 14137,
+              "sleeper_id": 5857,
+              "first_name": "Noah",
+              "last_name": "Fant",
+              "position": "TE",
+              "team_abbreviation": "DEN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 9,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101309,
+              "mfl_id": 14067,
+              "sleeper_id": 6011,
+              "first_name": "Gardner",
+              "last_name": "Minshew",
+              "position": "QB",
+              "team_abbreviation": "JAX"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1680,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Dallas",
+              "last_name": "Cowboys",
+              "position": "DEF",
+              "team_abbreviation": "DAL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 16,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101558,
+              "mfl_id": 13629,
+              "sleeper_id": 4981,
+              "first_name": "Calvin",
+              "last_name": "Ridley",
+              "position": "WR",
+              "team_abbreviation": "ATL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 344,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101362,
+              "mfl_id": 14056,
+              "sleeper_id": 5849,
+              "first_name": "Kyler",
+              "last_name": "Murray",
+              "position": "QB",
+              "team_abbreviation": "ARI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100751,
+              "mfl_id": 12150,
+              "sleeper_id": 2315,
+              "first_name": "Todd",
+              "last_name": "Gurley",
+              "position": "RB",
+              "team_abbreviation": "ATL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 44,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101501,
+              "mfl_id": 13910,
+              "sleeper_id": 5695,
+              "first_name": "Brandon",
+              "last_name": "Powell",
+              "position": "WR",
+              "team_abbreviation": "ATL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 4,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100214,
+              "mfl_id": 5848,
+              "sleeper_id": 167,
+              "first_name": "Tom",
+              "last_name": "Brady",
+              "position": "QB",
+              "team_abbreviation": "TB"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101124,
+              "mfl_id": 12417,
+              "sleeper_id": 2671,
+              "first_name": "Josh",
+              "last_name": "Lambo",
+              "position": "K",
+              "team_abbreviation": "JAX"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 44,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101686,
+              "mfl_id": 14122,
+              "sleeper_id": 6149,
+              "first_name": "Darius",
+              "last_name": "Slayton",
+              "position": "WR",
+              "team_abbreviation": "NYG"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 2,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101349,
+              "mfl_id": 12447,
+              "sleeper_id": 2749,
+              "first_name": "Raheem",
+              "last_name": "Mostert",
+              "position": "RB",
+              "team_abbreviation": "SF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100643,
+              "mfl_id": 12647,
+              "sleeper_id": 3157,
+              "first_name": "Will",
+              "last_name": "Fuller",
+              "position": "WR",
+              "team_abbreviation": "MIA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 44,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101066,
+              "mfl_id": 13132,
+              "sleeper_id": 4035,
+              "first_name": "Alvin",
+              "last_name": "Kamara",
+              "position": "RB",
+              "team_abbreviation": "NO"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 33,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101615,
+              "mfl_id": 9099,
+              "sleeper_id": 24,
+              "first_name": "Matt",
+              "last_name": "Ryan",
+              "position": "QB",
+              "team_abbreviation": "ATL"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 67,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100246,
+              "mfl_id": 12386,
+              "sleeper_id": 2588,
+              "first_name": "Malcolm",
+              "last_name": "Brown",
+              "position": "RB",
+              "team_abbreviation": "MIA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 6,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100429,
+              "mfl_id": 12184,
+              "sleeper_id": 2410,
+              "first_name": "Jamison",
+              "last_name": "Crowder",
+              "position": "WR",
+              "team_abbreviation": "NYJ"
+            }
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "franchise_name": "Franchise 6",
+        "roster": [
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100856,
+              "mfl_id": 12801,
+              "sleeper_id": 3321,
+              "first_name": "Tyreek",
+              "last_name": "Hill",
+              "position": "WR",
+              "team_abbreviation": "KC"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 20,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100126,
+              "mfl_id": 14983,
+              "sleeper_id": 7042,
+              "first_name": "Tyler",
+              "last_name": "Bass",
+              "position": "K",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101866,
+              "mfl_id": 13115,
+              "sleeper_id": 3976,
+              "first_name": "Mitchell",
+              "last_name": "Trubisky",
+              "position": "QB",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 6.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101791,
+              "mfl_id": 10697,
+              "sleeper_id": 1049,
+              "first_name": "Ryan",
+              "last_name": "Tannehill",
+              "position": "QB",
+              "team_abbreviation": "TEN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100712,
+              "mfl_id": 12151,
+              "sleeper_id": 2320,
+              "first_name": "Melvin",
+              "last_name": "Gordon",
+              "position": "RB",
+              "team_abbreviation": "DEN"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 8.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100495,
+              "mfl_id": 12186,
+              "sleeper_id": 2449,
+              "first_name": "Stefon",
+              "last_name": "Diggs",
+              "position": "WR",
+              "team_abbreviation": "BUF"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 1696,
+              "mfl_id": null,
+              "sleeper_id": null,
+              "first_name": "Arizona",
+              "last_name": "Cardinals",
+              "position": "DEF",
+              "team_abbreviation": "ARI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 6.01,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101563,
+              "mfl_id": 7394,
+              "sleeper_id": 331,
+              "first_name": "Philip",
+              "last_name": "Rivers",
+              "position": "QB",
+              "team_abbreviation": "FA"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 101718,
+              "mfl_id": 13193,
+              "sleeper_id": 4144,
+              "first_name": "Jonnu",
+              "last_name": "Smith",
+              "position": "TE",
+              "team_abbreviation": "NE"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100517,
+              "mfl_id": 12630,
+              "sleeper_id": 3242,
+              "first_name": "Kenyan",
+              "last_name": "Drake",
+              "position": "RB",
+              "team_abbreviation": "LVR"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100534,
+              "mfl_id": 13726,
+              "sleeper_id": 5000,
+              "first_name": "Chase",
+              "last_name": "Edmonds",
+              "position": "RB",
+              "team_abbreviation": "ARI"
+            }
+          },
+          {
+            "roster_group": "active",
+            "salary": 1,
+            "contract_years": 1,
+            "contract_extendable": 1,
+            "player": {
+              "id": 100115,
+              "mfl_id": 13604,
+              "sleeper_id": 4866,
+              "first_name": "Saquon",
+              "last_name": "Barkley",
+              "position": "RB",
+              "team_abbreviation": "NYG"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
