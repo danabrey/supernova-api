@@ -5,7 +5,7 @@ use DanAbrey\SupernovaApi\Exception\InvalidApiKeyException;
 
 class InvalidApiKeyTest extends SupernovaApiClientTestCase
 {
-    public function test_get_leagues_for_user_success()
+    public function test_invalid_api_key_exception_is_thrown_when_response_is_401()
     {
         $this->setResponseJson(file_get_contents(__DIR__ . '/../_data/invalid_api_key.json'));
 
