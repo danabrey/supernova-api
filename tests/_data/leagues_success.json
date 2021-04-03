@@ -1,0 +1,19 @@
+{
+  "statusCode": 200,
+  "status": "OK",
+  "data": {
+    "email_address": "test@email.com",
+    "leagues": [
+      {
+        "league_id": 10001,
+        "league_name": "Test League 1",
+        "franchise_name": "Test Franchise Name 1"
+      },
+      {
+        "league_id": 10002,
+        "league_name": "Test League 2",
+        "franchise_name": "Test Franchise Name 2"
+      }
+    ]
+  }
+}
