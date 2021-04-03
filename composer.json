@@ -3,6 +3,7 @@
     "description": "PHP API wrapper for supernovafantasyfootball.com",
     "type": "library",
     "license": "MIT",
+    "version": "v0.1",
     "authors": [
         {
             "name": "Dan Abrey",
