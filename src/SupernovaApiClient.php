@@ -3,7 +3,14 @@ namespace DanAbrey\SupernovaApi;
 
 use DanAbrey\SupernovaApi\Exception\InvalidApiKeyException;
 use DanAbrey\SupernovaApi\Exception\LeagueNotFoundException;
+use DanAbrey\SupernovaApi\Exception\SupernovaApiException;
+use Symfony\Component\HttpClient\Exception\ClientException;
+use Symfony\Component\HttpClient\Exception\RedirectionException;
 use Symfony\Component\HttpClient\HttpClient;
+use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
+use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
+use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
+use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class SupernovaApiClient
@@ -29,20 +36,29 @@ class SupernovaApiClient
      * @param string $path
      * @return array
      * @throws InvalidApiKeyException
+     * @throws LeagueNotFoundException
+     * @throws SupernovaApiException
      */
     protected function get(string $path): array
     {
         $response = $this->httpClient->request('GET', self::API_BASE . $path, [
             'headers' => [
                 'User-Agent' => 'danabrey/supernova-api',
-                'x-api-key' => $this->apiKey,
+                'x-api-key'  => $this->apiKey,
             ],
         ]);
 
         $json = json_decode($response->getContent(), true);
 
-        if ($json['statusCode'] === 401 && $json['errorMsg'] === 'Invalid API Key was provided') {
-            throw new InvalidApiKeyException();
+        if ($json['statusCode'] !== 200) {
+            switch ($json['errorMsg']) {
+                case 'Invalid API Key was provided':
+                    throw new InvalidApiKeyException();
+                case 'League not found':
+                    throw new LeagueNotFoundException();
+                default:
+                    throw new SupernovaApiException($json['errorMsg']);
+            }
         }
 
         return $json;
@@ -57,11 +73,6 @@ class SupernovaApiClient
     public function league(int $leagueId): SupernovaLeague
     {
         $response = $this->get('/getfranchises?league=' . $leagueId);
-
-        if ($response['statusCode'] === 401 && $response['errorMsg'] === 'League not found') {
-            throw new LeagueNotFoundException();
-        }
-
         return new SupernovaLeague($response['data']);
     }
 }
