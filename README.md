@@ -26,4 +26,4 @@ It is your responsibility to abide by the [terms of the Supernova API](https://w
 
 ### Running tests
 
-`./vendor/bin/phpunit`
+`./vendor/bin/phpunit tests`
