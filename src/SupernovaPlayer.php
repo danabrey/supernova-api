@@ -13,4 +13,5 @@ class SupernovaPlayer extends DataTransferObject
     public string $last_name;
     public string $position;
     public string $team_abbreviation;
+    public ?string $injury_status = null;
 }

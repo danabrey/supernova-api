@@ -69,7 +69,8 @@
               "first_name": "Zack",
               "last_name": "Moss",
               "position": "RB",
-              "team_abbreviation": "BUF"
+              "team_abbreviation": "BUF",
+              "injury_status": "Something"
             }
           },
           {
