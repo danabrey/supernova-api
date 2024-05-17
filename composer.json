@@ -3,7 +3,7 @@
     "description": "PHP API wrapper for supernovafantasyfootball.com",
     "type": "library",
     "license": "MIT",
-    "version": "v0.1.2",
+    "version": "v0.2",
     "authors": [
         {
             "name": "Dan Abrey",
@@ -18,9 +18,9 @@
     },
     "require": {
         "php": "^7.4|^8.0",
-        "symfony/serializer": "^5.2",
-        "symfony/http-client": "^5.2",
-        "symfony/property-access": "^5.2",
+        "symfony/serializer": "^5.2|^6.0|^7.0",
+        "symfony/http-client": "^5.2|^6.0|^7.0",
+        "symfony/property-access": "^5.2|^6.0|^7.0",
         "ext-json": "*",
         "spatie/data-transfer-object": "^2.8"
     },
