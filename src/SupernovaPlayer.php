@@ -14,6 +14,7 @@ class SupernovaPlayer extends DataTransferObject
     public ?int $fleaflicker_id = null;
     public ?int $espn_id = null;
     public ?int $fantasypros_id = null;
+    public ?string $pfr_id = null;
     public ?int $age = null;
     public ?int $draft_year = null;
     public ?int $dp_1qb_value = null;
